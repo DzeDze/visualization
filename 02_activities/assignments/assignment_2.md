@@ -9,27 +9,83 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
-      Your answer...
 
+---
 
+### Good Visualization
 
+Link: [https://public.tableau.com/app/profile/chris.kong1718/viz/GlobalCO2EmissionsDashboard_17455493859290/Dashboard1](https://public.tableau.com/app/profile/chris.kong1718/viz/GlobalCO2EmissionsDashboard_17455493859290/Dashboard1)
 
+![Good Visualization](images/picture_a.jpg)
 
+Why this is a good visualization:
 
+**1. Purposeful Layout and Data Storytelling:**
 
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
+The dashboard integrates three coordinated views: a choropleth world map (CO₂ per capita by country), a scatterplot (CO₂ vs population), and a time-series chart (global share over time). These views work together to tell a broader story about emissions distribution, country comparison, and historical change. The layout supports both overview and deeper analysis.
 
+**2. Appropriate Chart Selection:**
 
+The map is appropriate for geographic distribution. The scatterplot uses aligned axes to compare emissions and population; outliers are labeled directly such as China, India, and the United States, reducing the need to search through a legend. The line chart effectively communicates long-term trends. Each chart type matches its analytical purpose.
 
+**3. Visual Hierarchy and Clarity:**
 
+The large, clear title anchors the dashboard. The map appears first as the overview, followed by comparative and trend views. Axes and legends are labeled, and the color scale clearly indicates CO₂ per capita levels. This supports quick interpretation without guesswork.
 
+**4. Meaningful Use of Colour:**
 
-      
-      ```
+The choropleth uses a continuous colour scale to represent magnitude differences. The legend clearly communicates the range, helping viewers interpret intensity accurately.
+
+### Bad Visualization
+
+Link: [https://public.tableau.com/app/profile/rahmat.fadhilah.gumelar/viz/CO2EMISSIONS_17186809104440/3CountrieswithHighestCO2Emissions](https://public.tableau.com/app/profile/rahmat.fadhilah.gumelar/viz/CO2EMISSIONS_17186809104440/3CountrieswithHighestCO2Emissions)
+
+![Bad Visualization](images/picture_b.jpg)
+
+Why this is a bad visualization:
+
+**1. Ineffective Chart Choice (Bubble Chart for Comparison):**
+
+The top-left bubble chart uses circle size to represent CO₂ per capita for the top three countries. Comparing area is much less precise than comparing bar lengths or aligned positions. Viewers cannot easily determine how much larger Qatar’s emissions are relative to Luxembourg’s or UAE. Additionally, the legend shows a scale range (1,466 to 2,830) without clear units or explanation.
+
+**2. Redundant Line Charts Showing the Same Information:**
+
+There are two separate line charts displaying CO₂ emissions per capita for the same three countries (Qatar, Luxembourg, and the UAE). Although the colors differ slightly between the views, they present essentially the same trend data (adjusting the slider in the top-right chart to the same period would show the same information as the bottom chart). This redundancy does not add new insight. Instead, it increases cognitive load and forces viewers to process duplicate information. Effective visualization should eliminate repetition unless it serves a clear comparative purpose.
+
+**3. Inconsistent Styling and Colour Encoding:**
+
+Different sections use different fonts, styles, and colour schemes. Colors are not consistently mapped across charts. For example, Qatar is shown in red in the top-right chart but appears in orange in the bottom chart; the same inconsistency applies to the other two countries. Without consistent visual encoding, interpretation becomes more difficult.
+
+**4. Decorative Images Reduce Data Focus:**
+
+The inclusion of large pollution images adds emotional context but does not encode data. These visuals consume significant space and distract from the quantitative charts. This shifts attention away from analysis.
+
+---
+
+- How could this data visualization have been improved?  
+
+---
+
+### For the Good visualization example
+
+- Add annotations highlighting key turning points in the time-series chart.
+
+- Emphasize top contributors more clearly in the global share line chart to reduce clutter.
+
+### For the Bad visualization example
+
+- Replace the bubble chart with a simple bar chart for clearer comparison.
+
+- Remove one of the redundant line charts and keep a single clear trend view.
+
+- Eliminate decorative images that do not encode data.
+
+- Use consistent color mapping and font style across all charts.
+
+- Add a clear title explaining the analytical purpose
+
+---
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
