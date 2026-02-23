@@ -8,9 +8,9 @@
 
 This project visualizes **Motor Vehicle Theft incidents in the City of Toronto** using **Python and Plotly**. The goal is to provide clear, spatial, and comparative insights to raise awareness in the community - particularly for motor vehicle owners who live in, work in, or park within Toronto.
 
-The notebook uses preprocessed data generated from `preprocessing.ipynb`, where raw data were cleaned, filtered to 2025 incidents, and merged with neighbourhood geographic boundaries.
+The notebook `visualization.ipynb` uses preprocessed data generated from `preprocessing.ipynb`, where raw data were cleaned, filtered to 2025 incidents, and merged with neighbourhood geographic boundaries.
 
-This notebook produces three main visualizations:
+This notebook `visualization.ipynb` produces three main visualizations:
 
 - A choropleth (density) map showing the number of incidents per neighbourhood.
 
